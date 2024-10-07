@@ -1,10 +1,13 @@
 import './App.css'
+import Navbar from './components/navbar';
 
-function App() {
+const App = () => {
 
   return (
-    <h1>Hello World</h1>
+    <>
+      <Navbar/>
+    </>
   )
 }
 
-export default App
+export default App;
